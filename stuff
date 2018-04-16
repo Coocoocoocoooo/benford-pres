@@ -9,3 +9,6 @@ plt.axis([1, 9, 0, 1]) # [ x labels 1st, last, y labels 1st, last ]
 plt.ylabel('Occurance')
 plt.xlabel('Leading Digit')
 plt.show()
+
+
+https://www.dataquest.io/blog/jupyter-notebook-tutorial/

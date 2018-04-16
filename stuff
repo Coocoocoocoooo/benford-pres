@@ -4,3 +4,8 @@ import matplotlib
 import numpy as np
 import matplotlib.pyplot as plt
 
+plt.plot([1,2,3,4,5,6,7,8,9], [.301,.176,.125,.097,.079,.067,.058,.051,.046], 'ro') # in groups of 3, they are strings of x info, y info, plot type (ex 'bs' means blue square)
+plt.axis([1, 9, 0, 1]) # [ x labels 1st, last, y labels 1st, last ]
+plt.ylabel('Occurance')
+plt.xlabel('Leading Digit')
+plt.show()
